@@ -23,10 +23,9 @@ año varchar(5) foreign key references anios(año)
 )
 
 select * from cereales
+order by codigo
 
-select codigo, descripcion,pais, c.año
+select codigo,pais,descripcion, c.año
 from cereales c
 inner join anios a
 on a.año=c.año
-inner join importe i
-on a.año=i.año
