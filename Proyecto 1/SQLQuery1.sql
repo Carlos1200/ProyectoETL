@@ -1,31 +1,32 @@
-Create database ProyectoETL
-use ProyectoETL
+Create database proyectoETL
+use proyectoETL
 
-
-create table anios(
-año varchar(5) primary key
+create table hechos(
+id uniqueidentifier primary key,
+id_pais uniqueidentifier foreign key references DimPais(id),
+cod_arancelario uniqueidentifier foreign key references DimAranceles(id),
+year int,
+valor float
 )
 
-select * from anios
+create table DimPais(
+id uniqueidentifier primary key,
+nombre varchar(100))
 
-create table importe(
- año varchar(5) foreign key references anios(año),
- CIF money
+create table DimAranceles(
+id uniqueidentifier primary key,
+cod varchar(15),
+descripcion varchar(255)
 )
 
-select * from importe
+delete from hechos
+delete from DimAranceles
+delete from DimPais
 
-Create table cereales(
-codigo varchar(15),
-descripcion text,
-pais varchar(30),
-año varchar(5) foreign key references anios(año)
-)
-
-select * from cereales
-order by codigo
-
-select codigo,pais,descripcion, c.año
-from cereales c
-inner join anios a
-on a.año=c.año
+select p.nombre,a.cod,h.year,h.valor from hechos h
+inner join DimAranceles a
+on a.id=h.cod_arancelario
+inner join DimPais p
+on p.id=h.id_pais
+where (p.nombre='Uruguay') and (a.cod='1006309000')
+order by h.year

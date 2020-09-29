@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-8RGSA90"
   DTS:CreatorName="DESKTOP-8RGSA90\cdavi"
-  DTS:DTSID="{47016BA5-3608-4EBB-832A-BCC42964C802}"
+  DTS:DTSID="{20AC607E-3C4E-4B41-8E66-751A731ECDE9}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.121"
   DTS:LocaleID="1033"
-  DTS:ObjectName="Package2"
+  DTS:ObjectName="Paises"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{3107D240-6C92-448C-A8A4-951049F22B4D}">
+  DTS:VersionBuild="9"
+  DTS:VersionGUID="{7AAF75EF-E246-4D77-927F-572A6B184B7D}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -34,16 +34,6 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Data Source=DESKTOP-8RGSA90\MSSQLSERVER01;Initial Catalog=grupo5;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-8RGSA90\MSSQLSERVER01.ProyectoETL]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{6537EB09-4952-47D4-A589-0DB6CF0FF335}"
-      DTS:ObjectName="DESKTOP-8RGSA90\MSSQLSERVER01.ProyectoETL">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DESKTOP-8RGSA90\MSSQLSERVER01;Initial Catalog=ProyectoETL;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
