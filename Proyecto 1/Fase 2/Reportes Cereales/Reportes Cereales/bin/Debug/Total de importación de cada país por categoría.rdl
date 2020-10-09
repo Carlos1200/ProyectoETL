@@ -149,7 +149,7 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1in</Width>
+                  <Width>1.19792in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>1in</Width>
@@ -516,7 +516,7 @@
             <DataSetName>DataSet1</DataSetName>
             <Top>0.43in</Top>
             <Height>0.43in</Height>
-            <Width>4.52083in</Width>
+            <Width>4.71875in</Width>
             <ZIndex>1</ZIndex>
             <Style />
           </Tablix>
