@@ -17,6 +17,9 @@
       <Dimension>
         <ID>Dim Aranceles</ID>
       </Dimension>
+      <Dimension>
+        <ID>Tiempo</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>

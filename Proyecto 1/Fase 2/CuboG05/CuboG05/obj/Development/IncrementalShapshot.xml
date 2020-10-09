@@ -46,8 +46,15 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jQ2K+bf+6MqGy4b0TtdrzKaoISE=8/10/2020 18:13:258/10/2020 18:12:43</TimeStamp>
+        <ID>
+          <String>Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>qdXKKm4c8lJJu4QOHDQ1/NBvipI=5/10/2020 18:28:275/10/2020 18:28:27jpQtwtmIvaMahzaXoHbN2hIN/co=5/10/2020 18:28:275/10/2020 18:28:27</TimeStamp>
+        <TimeStamp>EqrxGpkAaq80wgDKL4G3cNhcjnQ=8/10/2020 18:13:258/10/2020 14:36:52jpQtwtmIvaMahzaXoHbN2hIN/co=8/10/2020 14:55:448/10/2020 14:36:53</TimeStamp>
         <ID>
           <String>Proyecto ETL</String>
         </ID>
@@ -64,5 +71,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-10-06T21:32:46.433333Z</LastDeployed>
+  <LastDeployed>2020-10-09T00:13:31.243333Z</LastDeployed>
 </DeploymentSnapshot>

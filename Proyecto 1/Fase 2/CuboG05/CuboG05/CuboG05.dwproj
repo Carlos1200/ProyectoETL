@@ -27,6 +27,10 @@
       <Name>Dim Aranceles.dim</Name>
       <FullPath>Dim Aranceles.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Tiempo.dim</Name>
+      <FullPath>Tiempo.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
