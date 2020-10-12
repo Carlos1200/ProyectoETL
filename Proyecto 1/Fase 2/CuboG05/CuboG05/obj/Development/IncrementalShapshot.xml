@@ -1,8 +1,8 @@
 ﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
   <Target>
     <Database>CuboG05</Database>
-    <Server>BYRON-AMAYA</Server>
-    <ConnectionString>Data Source=BYRON-AMAYA;Timeout=0</ConnectionString>
+    <Server>DESKTOP-S0789U9\SQLSERVER2</Server>
+    <ConnectionString>Data Source=DESKTOP-S0789U9\SQLSERVER2;Timeout=0</ConnectionString>
   </Target>
   <Options>
     <TransactionalDeployment>false</TransactionalDeployment>
@@ -19,42 +19,42 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>+m/5CzUudOxctx1xw5T9i4zmP5E=6/10/2020 15:23:285/10/2020 18:28:27</TimeStamp>
+        <TimeStamp>BO3sUwUin4d2OywIJD9LAae/D6c=11/10/2020 23:09:0508/10/2020 21:04:07</TimeStamp>
         <ID>
           <String>Proyecto ETL</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>AuSPv7W2mm3FJ+ValzhAAKUHN40=5/10/2020 18:28:275/10/2020 18:28:27</TimeStamp>
+        <TimeStamp>AuSPv7W2mm3FJ+ValzhAAKUHN40=11/10/2020 22:54:0208/10/2020 21:04:07</TimeStamp>
         <ID>
           <String>Proyecto ETL</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>eh/Uu/THWaN/bZORVmTCloKJM6M=5/10/2020 18:28:275/10/2020 18:28:27</TimeStamp>
+        <TimeStamp>eh/Uu/THWaN/bZORVmTCloKJM6M=08/10/2020 21:04:0708/10/2020 21:04:07</TimeStamp>
         <ID>
           <String>Dim Pais</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>84+0t5HTSogeoIVEa5bT1epR2nY=5/10/2020 18:28:275/10/2020 18:28:26</TimeStamp>
+        <TimeStamp>84+0t5HTSogeoIVEa5bT1epR2nY=08/10/2020 21:04:0708/10/2020 21:04:07</TimeStamp>
         <ID>
           <String>Dim Aranceles</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>jQ2K+bf+6MqGy4b0TtdrzKaoISE=8/10/2020 18:13:258/10/2020 18:12:43</TimeStamp>
+        <TimeStamp>jQ2K+bf+6MqGy4b0TtdrzKaoISE=08/10/2020 21:04:0708/10/2020 21:04:07</TimeStamp>
         <ID>
           <String>Tiempo</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>EqrxGpkAaq80wgDKL4G3cNhcjnQ=8/10/2020 18:13:258/10/2020 14:36:52jpQtwtmIvaMahzaXoHbN2hIN/co=8/10/2020 14:55:448/10/2020 14:36:53</TimeStamp>
+        <TimeStamp>1VZO0BFc+BzMkF7jNZLfKb7yoq8=11/10/2020 23:45:5008/10/2020 21:04:07jpQtwtmIvaMahzaXoHbN2hIN/co=08/10/2020 21:04:0708/10/2020 21:04:07</TimeStamp>
         <ID>
           <String>Proyecto ETL</String>
         </ID>
@@ -62,7 +62,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>+7bg+TLpw9IiR3d85pnYWyQa+LU=5/10/2020 18:28:265/10/2020 18:28:26</TimeStamp>
+      <TimeStamp>+7bg+TLpw9IiR3d85pnYWyQa+LU=08/10/2020 21:04:0708/10/2020 21:04:07</TimeStamp>
       <ID>
         <String>CuboG05</String>
       </ID>
@@ -71,5 +71,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-10-09T00:13:31.243333Z</LastDeployed>
+  <LastDeployed>2020-10-12T05:46:49.663333Z</LastDeployed>
 </DeploymentSnapshot>

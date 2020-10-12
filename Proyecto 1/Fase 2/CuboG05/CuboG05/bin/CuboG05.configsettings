@@ -3,7 +3,7 @@
     <DataSources>
       <DataSource>
         <ID>Proyecto ETL</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=BYRON-AMAYA;Persist Security Info=True;Password=;User ID=;Initial Catalog=proyectoETL</ConnectionString>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-S0789U9\SQLSERVER2;Persist Security Info=True;Password=;User ID=;Initial Catalog=proyectoETL</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
