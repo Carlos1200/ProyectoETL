@@ -7,17 +7,17 @@
           <ConfigurationSetting>
             <Id>Proyecto ETL</Id>
             <Name>Proyecto ETL</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEWWSjZYeH0WQsgFHH/l+FgAAAAAaAAAAUAByAG8AeQBlAGMAdABvACAARQBUAEwAAAAQZgAAAAEAACAAAADbsKpEX3WI3jhDjTYgNR+gTEZMHjDN7qOxwjqsP6/NFwAAAAAOgAAAAAIAACAAAAAMgrGnGi+To7Bxe1OC3tOKPX/79FnpIGLz01EfxQfpfRAAAADkDi3LcS+DJ8g9IrDulTPzQAAAAO6NbzepsBScgHvmn+1A5d3DNfV3O2MVTqCpwABOPZSleq4f5af9Eeo3iIq2CWpxNfQPYlsk1MGYP6bwSMsOYiA=</Value>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4DGcEiOl4U+ZPRd1Os1s2AAAAAAaAAAAUAByAG8AeQBlAGMAdABvACAARQBUAEwAAAAQZgAAAAEAACAAAAAKMBbvbsdaIi8V5Sig5qf6gjv5ErY5fmRQ5A4HzEN1ugAAAAAOgAAAAAIAACAAAAC6QDDUCB1PF6VCS4VukDGtNNKbTy/zV00gjmzEp5T9VBAAAACQUslN9TGhXcxd6E3nB85lQAAAAPPq9JsjeTtqOyXNSrnrYTTomaoI51lwuvPnHhjEQa/GgVyauDTDl73V7jNpnzT0Q1VC3G8tEEZoGcFwdWgU2oQ=</Value>
           </ConfigurationSetting>
         </UserIDs>
         <UserPasswords>
           <ConfigurationSetting>
             <Id>Proyecto ETL</Id>
             <Name>Proyecto ETL</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEWWSjZYeH0WQsgFHH/l+FgAAAAAaAAAAUAByAG8AeQBlAGMAdABvACAARQBUAEwAAAAQZgAAAAEAACAAAADussIQzW4uMAmEp7dTE4jDRs9nZWP42xjjepKrRj5ZRAAAAAAOgAAAAAIAACAAAACVxLBRhSdT+F6rGRh5OhfMT0AeHcc4wPMPSx2RpIE+WxAAAAAgs+nvSWBj0AxTnZH3fFB1QAAAALBj4XAeGM8w3r6zNmKjyeuLrMMTCVijd4QH6+zGmSRWzoZ7FE8fF6nZ1ylu7l44AVBuhLJdHFib7fVmUYPJJAE=</Value>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4DGcEiOl4U+ZPRd1Os1s2AAAAAAaAAAAUAByAG8AeQBlAGMAdABvACAARQBUAEwAAAAQZgAAAAEAACAAAAAe1IreYvW56yE0DXUHeAKmUPogiKV4rVvLwQC55UdVsAAAAAAOgAAAAAIAACAAAAClPiq4MEtvGEfHVqCqXZVYar0sU00rSVY1JuXRY/knxBAAAADlT3RGIz2bCJra6a9pchTIQAAAAMgB9oY7IuhDOmUlDhbi8Mr/KbDAzjZkVWc9W40wO7V82+UjL+1/fUD62Grqx7gDjYZHj3u8N3CYqCxI6CcEII0=</Value>
           </ConfigurationSetting>
         </UserPasswords>
-        <TargetServer>BYRON-AMAYA</TargetServer>
+        <TargetServer>DESKTOP-S0789U9\SQLSERVER2</TargetServer>
         <TargetDatabase>CuboG05</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
