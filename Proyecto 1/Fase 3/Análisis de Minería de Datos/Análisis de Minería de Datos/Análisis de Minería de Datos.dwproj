@@ -6,10 +6,37 @@
     <Name>Análisis de Minería de Datos.database</Name>
     <FullPath>Análisis de Minería de Datos.database</FullPath>
   </Database>
+  <DataSources>
+    <ProjectItem>
+      <Name>Supermarket.ds</Name>
+      <FullPath>Supermarket.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Supermarket.dsv</Name>
+      <FullPath>Supermarket.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Supermarket</Id>
+            <Name>Supermarket</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=BYRON-AMAYA;Persist Security Info=True;Password=;User ID=;Initial Catalog=Supermarket</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Supermarket</Id>
+            <Name>Supermarket</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>

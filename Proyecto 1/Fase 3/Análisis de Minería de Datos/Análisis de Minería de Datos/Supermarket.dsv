@@ -1,0 +1,123 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e0f6f307-6879-4d4d-8cdf-d8e270bfe61b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Supermarket</ID>
+  <Name>Supermarket</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Supermarket</DataSourceID>
+  <Schema>
+    <xs:schema id="Supermarket" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Supermarket" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="4e739b6f-ffef-4861-b003-7f0205994ba5">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Sales" msprop:design-time-name="905a95f7-3cf7-4eef-b2ee-dab176e668ef" msprop:DbTableName="Sales" msprop:FriendlyName="Sales" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID" msprop:design-time-name="bf4777b3-033f-491d-b43b-3ff0fcca9e7a" msprop:DbColumnName="ID" msprop:FriendlyName="ID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Branch" msprop:design-time-name="158b4aec-a29a-445d-b114-cc3cb03470a0" msprop:DbColumnName="Branch" msprop:FriendlyName="Branch">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="City" msprop:design-time-name="762c24eb-67c6-4625-87bc-79a6ee5fde76" msprop:DbColumnName="City" msprop:FriendlyName="City" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Customer_type" msprop:design-time-name="2cd9c5a6-cc80-4091-969f-2c09b34142e8" msprop:DbColumnName="Customer_type" msprop:FriendlyName="Customer_type">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Gender" msprop:design-time-name="6e9276ea-b2ac-4fc0-ab0d-41524dd493a6" msprop:DbColumnName="Gender" msprop:FriendlyName="Gender">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Product_line" msprop:design-time-name="956afa50-de93-4615-a77d-ca65f530aeef" msprop:DbColumnName="Product_line" msprop:FriendlyName="Product_line">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Unit_price" msprop:design-time-name="c6376ca6-1e4b-43c9-8073-cf5aa26bb371" msprop:DbColumnName="Unit_price" msprop:FriendlyName="Unit_price" type="xs:decimal" />
+                  <xs:element name="Quantity" msprop:design-time-name="ca1fe5e6-3e9b-4b8c-abd3-7cd2dbd9feec" msprop:DbColumnName="Quantity" msprop:FriendlyName="Quantity" type="xs:int" />
+                  <xs:element name="Tax" msprop:design-time-name="504d5aab-71e4-43ef-bc54-3c0733eb0590" msprop:DbColumnName="Tax" msprop:FriendlyName="Tax" type="xs:decimal" />
+                  <xs:element name="Total_price" msprop:design-time-name="97d723da-b700-4048-9d73-0bb581fa616d" msprop:DbColumnName="Total_price" msprop:FriendlyName="Total_price" type="xs:decimal" />
+                  <xs:element name="Date_purchase" msprop:design-time-name="d5e33034-8075-4531-8db9-3c4995f97076" msprop:DbColumnName="Date_purchase" msprop:FriendlyName="Date_purchase" type="xs:dateTime" />
+                  <xs:element name="Time_purchase" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="72d16e56-8259-4d3f-8e86-31b7bcc1e360" msprop:DbColumnName="Time_purchase" msprop:FriendlyName="Time_purchase" type="xs:anyType" />
+                  <xs:element name="Payment" msprop:design-time-name="faad2af5-a4be-42bf-af70-bb62db18d479" msprop:DbColumnName="Payment" msprop:FriendlyName="Payment">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Cogs" msprop:design-time-name="bcdeb101-9fb4-42b8-b329-5065b6237050" msprop:DbColumnName="Cogs" msprop:FriendlyName="Cogs" type="xs:decimal" />
+                  <xs:element name="Gross_margin" msprop:design-time-name="1e790db4-aa0f-4f0e-abfe-5ceb19f029c5" msprop:DbColumnName="Gross_margin" msprop:FriendlyName="Gross_margin" type="xs:double" />
+                  <xs:element name="Gross_income" msprop:design-time-name="e4fc7e56-de2a-4c91-9ec2-c5331ecd67b8" msprop:DbColumnName="Gross_income" msprop:FriendlyName="Gross_income" type="xs:decimal" />
+                  <xs:element name="Rating" msprop:design-time-name="9f8e6e7a-4eb7-47b9-a8fa-b1c464b666e9" msprop:DbColumnName="Rating" msprop:FriendlyName="Rating" type="xs:float" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Sales" />
+          <xs:field xpath="ID" />
+        </xs:unique>
+      </xs:element>
+    </xs:schema>
+    <Supermarket xmlns="" />
+  </Schema>
+</DataSourceView>

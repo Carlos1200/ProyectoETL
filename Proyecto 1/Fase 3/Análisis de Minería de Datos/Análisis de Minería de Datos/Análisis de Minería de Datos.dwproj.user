@@ -3,6 +3,20 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Supermarket</Id>
+            <Name>Supermarket</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARLoYRFa6+E2qjtIeWnKDqAAAAAAYAAAAUwB1AHAAZQByAG0AYQByAGsAZQB0AAAAEGYAAAABAAAgAAAAeQUOZ1kZnIZmYS9h2fin+Xf1zZY8Ws3ZHwqvDweqpzMAAAAADoAAAAACAAAgAAAAag79HS//xcp7F+Udpo4Gs196KAHUzwU2RpPPM/yP7J8QAAAAHC8FD3mhJ0eGHXXJv/2Z4EAAAAD+tO7QwY95s3JutGXxCjmMMRtezcI3aP7E5QM2bo19dwwAGpJ7InqWiMJgc/hS4WJ3pc7XIuqt5TiJ3W/FeGQg</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Supermarket</Id>
+            <Name>Supermarket</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARLoYRFa6+E2qjtIeWnKDqAAAAAAYAAAAUwB1AHAAZQByAG0AYQByAGsAZQB0AAAAEGYAAAABAAAgAAAA3NdKu7qdUMw2gAAyXdW9beA9u7wmgAq3j1xKQmL0x8MAAAAADoAAAAACAAAgAAAAFV9CxKsq7hLavRu0qCPE2iv74T06zXLDAGh1HOxCZ5wQAAAAB7ROJiZdX47wHHWRfqzABkAAAADunzKnhHrRe+4oCIkRHAR+UNY1dhyjJ7Kl2Hum5VRomo1ScMVDY+9IzIhO1u4DgB2l/RxPKFNpLU7H39JAJ5wv</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
         <TargetServer>localhost</TargetServer>
         <TargetDatabase>Análisis de Minería de Datos</TargetDatabase>
         <StartObject>
