@@ -19,21 +19,21 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>90GWt28E+Sp5plhBHcp8iS+nhxI=6/11/2020 11:45:496/11/2020 11:45:48</TimeStamp>
+        <TimeStamp>EeNzUMlilPFNRJs/ha5/Bs2j5bc=8/11/2020 16:12:238/11/2020 16:12:17</TimeStamp>
         <ID>
-          <String>Cars</String>
+          <String>Supermarket</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>6M7is8+Nd4M2OT6EJYEv+ZnEx0k=6/11/2020 11:46:186/11/2020 11:46:15</TimeStamp>
+        <TimeStamp>R6TOFXq7rwIOqOMQvtbHh7OlxPM=8/11/2020 16:16:368/11/2020 16:16:26</TimeStamp>
         <ID>
-          <String>Cars</String>
+          <String>Supermarket</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.MiningStructure</Type>
-        <TimeStamp>AwwSpwVBED+eApteyA9BCHQJ2cU=6/11/2020 12:07:396/11/2020 11:53:20</TimeStamp>
+        <TimeStamp>gL4WTRDH+MXyTqG5wpsH5yzPVrM=8/11/2020 16:24:188/11/2020 16:24:18</TimeStamp>
         <ID>
           <String>Sales</String>
         </ID>
@@ -50,5 +50,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-11-06T18:07:46.203333Z</LastDeployed>
+  <LastDeployed>2020-11-08T22:25:39.313333Z</LastDeployed>
 </DeploymentSnapshot>
