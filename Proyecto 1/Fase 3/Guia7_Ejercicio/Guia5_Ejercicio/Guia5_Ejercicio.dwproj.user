@@ -7,15 +7,17 @@
           <ConfigurationSetting>
             <Id>Adventure Works DW2012</Id>
             <Name>Adventure Works DW2012</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARLoYRFa6+E2qjtIeWnKDqAAAAAAuAAAAQQBkAHYAZQBuAHQAdQByAGUAIABXAG8AcgBrAHMAIABEAFcAMgAwADEAMgAAABBmAAAAAQAAIAAAAAnP011cA6iVObJWu6XYWqdCkHNyOvDn0Xce0GfnVJKCAAAAAA6AAAAAAgAAIAAAAHNtAF2C7PJyobW0zwKU+lkyAOk893YgtqEtlnok6YYkEAAAAMloI5z9FdHqTAZ8gBwDtypAAAAABC+J9rubqUhmb4UQKrcwPxp77qAJlBnNSQxbuyQ9MNCJ+xcahykguhGyeXKzMzM5KC4IkP1e+EMaQdPXg8glvA==</Value>
           </ConfigurationSetting>
         </UserIDs>
         <UserPasswords>
           <ConfigurationSetting>
             <Id>Adventure Works DW2012</Id>
             <Name>Adventure Works DW2012</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARLoYRFa6+E2qjtIeWnKDqAAAAAAuAAAAQQBkAHYAZQBuAHQAdQByAGUAIABXAG8AcgBrAHMAIABEAFcAMgAwADEAMgAAABBmAAAAAQAAIAAAAJqkQeAbzd38NP764ukDEuzhhPExNpzhKfpShBalMtxfAAAAAA6AAAAAAgAAIAAAACn7fpF9hHTH5ZjXiXMPFZGBUK3DrtF6vWTgxGxMSSEuEAAAAE5emZgDkfIu1bzRHEDtgWhAAAAA8fUJ8OqDxbP4LS9XXY2rZh5NNEdjdiP/vhUQ64p6sjmrAHcn3qALyq/3+dGuvYt5ZZOEFeyaSP67LGaFBbfkpA==</Value>
           </ConfigurationSetting>
         </UserPasswords>
-        <TargetServer>DESKTOP-8RGSA90\MSSQLSERVER01</TargetServer>
+        <TargetServer>BYRON-AMAYA</TargetServer>
         <TargetDatabase>Guia5_Ejercicio</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>

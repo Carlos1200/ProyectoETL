@@ -31,5 +31,4 @@ With
 	Rowterminator = '\n'
 )
 
-Drop table Sales
 Select*from Sales

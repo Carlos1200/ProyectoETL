@@ -1,11 +1,11 @@
 ﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Análisis de Minería de Datos</ID>
   <Name>Análisis de Minería de Datos</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <LastUpdate>0001-01-01T00:00:00Z</LastUpdate>
+  <LastUpdate>0001-01-01T06:00:00Z</LastUpdate>
   <DataSourceImpersonationInfo>
     <ImpersonationMode>Default</ImpersonationMode>
     <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
@@ -29,7 +29,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6118" scrolltop="-3281" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="15425" y="11562" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7965" scrolltop="-3572" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="16404" y="11562" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                 </font>
@@ -40,9 +40,9 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Sales" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3149" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Sales" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
-                  <ddsxmlobjectstreaminitwrapper binary="000e00004d0c000088130000" />
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000043110000" />
                 </control>
                 <layoutobject>
                   <ddsxmlobj>
@@ -64,11 +64,11 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>-6118</Value>
+          <Value>-7965</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>-3281</Value>
+          <Value>-3572</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -86,54 +86,118 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Source xsi:type="DataSourceViewBinding">
-        <DataSourceViewID>Supermarket</DataSourceViewID>
+        <DataSourceViewID>Cars</DataSourceViewID>
       </Source>
       <Columns>
         <Column xsi:type="ScalarMiningStructureColumn">
-          <ID>ID</ID>
-          <Name>ID</Name>
-          <IsKey>true</IsKey>
+          <ID>Brand</ID>
+          <Name>Brand</Name>
           <Type>Text</Type>
+          <Content>Discrete</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>10</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Sales</TableID>
+                <ColumnID>Brand</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Cubicinches</ID>
+          <Name>Cubicinches</Name>
+          <Type>Long</Type>
+          <Content>Discrete</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <DataSize>-1</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Sales</TableID>
+                <ColumnID>Cubicinches</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Cylinders</ID>
+          <Name>Cylinders</Name>
+          <Type>Long</Type>
+          <Content>Discrete</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <DataSize>-1</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Sales</TableID>
+                <ColumnID>Cylinders</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Hp</ID>
+          <Name>Hp</Name>
+          <Type>Long</Type>
+          <Content>Continuous</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <DataSize>-1</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Sales</TableID>
+                <ColumnID>hp</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Mpg</ID>
+          <Name>Mpg</Name>
+          <IsKey>true</IsKey>
+          <Type>Double</Type>
           <Content>Key</Content>
           <KeyColumns>
             <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>11</DataSize>
+              <DataType>Single</DataType>
+              <DataSize>-1</DataSize>
               <Source xsi:type="ColumnBinding">
                 <TableID>dbo_Sales</TableID>
-                <ColumnID>ID</ColumnID>
+                <ColumnID>mpg</ColumnID>
               </Source>
             </KeyColumn>
           </KeyColumns>
         </Column>
         <Column xsi:type="ScalarMiningStructureColumn">
-          <ID>Payment</ID>
-          <Name>Payment</Name>
-          <Type>Text</Type>
-          <Content>Discrete</Content>
+          <ID>Time To 60</ID>
+          <Name>Time To 60</Name>
+          <Type>Long</Type>
+          <Content>Continuous</Content>
           <KeyColumns>
             <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>50</DataSize>
+              <DataType>Integer</DataType>
+              <DataSize>-1</DataSize>
               <Source xsi:type="ColumnBinding">
                 <TableID>dbo_Sales</TableID>
-                <ColumnID>Payment</ColumnID>
+                <ColumnID>time_to_60</ColumnID>
               </Source>
             </KeyColumn>
           </KeyColumns>
         </Column>
         <Column xsi:type="ScalarMiningStructureColumn">
-          <ID>Product Line</ID>
-          <Name>Product Line</Name>
-          <Type>Text</Type>
+          <ID>Year</ID>
+          <Name>Year</Name>
+          <Type>Long</Type>
           <Content>Discrete</Content>
           <KeyColumns>
             <KeyColumn>
-              <DataType>WChar</DataType>
-              <DataSize>50</DataSize>
+              <DataType>Integer</DataType>
+              <DataSize>-1</DataSize>
               <Source xsi:type="ColumnBinding">
                 <TableID>dbo_Sales</TableID>
-                <ColumnID>Product_line</ColumnID>
+                <ColumnID>Year_</ColumnID>
               </Source>
             </KeyColumn>
           </KeyColumns>
@@ -150,37 +214,62 @@
           <Algorithm>Microsoft_Decision_Trees</Algorithm>
           <Columns>
             <Column>
-              <ID>ID</ID>
-              <Name>ID</Name>
-              <SourceColumnID>ID</SourceColumnID>
+              <ID>Brand</ID>
+              <Name>Brand</Name>
+              <SourceColumnID>Brand</SourceColumnID>
+            </Column>
+            <Column>
+              <ID>Cubicinches</ID>
+              <Name>Cubicinches</Name>
+              <SourceColumnID>Cubicinches</SourceColumnID>
+            </Column>
+            <Column>
+              <ID>Cylinders</ID>
+              <Name>Cylinders</Name>
+              <SourceColumnID>Cylinders</SourceColumnID>
+            </Column>
+            <Column>
+              <ID>Hp</ID>
+              <Name>Hp</Name>
+              <SourceColumnID>Hp</SourceColumnID>
+              <Usage>PredictOnly</Usage>
+              <ModelingFlags>
+                <ModelingFlag>REGRESSOR</ModelingFlag>
+              </ModelingFlags>
+            </Column>
+            <Column>
+              <ID>Mpg</ID>
+              <Name>Mpg</Name>
+              <SourceColumnID>Mpg</SourceColumnID>
               <Usage>Key</Usage>
             </Column>
             <Column>
-              <ID>Payment</ID>
-              <Name>Payment</Name>
-              <SourceColumnID>Payment</SourceColumnID>
+              <ID>Time To 60</ID>
+              <Name>Time To 60</Name>
+              <SourceColumnID>Time To 60</SourceColumnID>
+              <ModelingFlags>
+                <ModelingFlag>REGRESSOR</ModelingFlag>
+              </ModelingFlags>
             </Column>
             <Column>
-              <ID>Product Line</ID>
-              <Name>Product Line</Name>
-              <SourceColumnID>Product Line</SourceColumnID>
-              <Usage>PredictOnly</Usage>
+              <ID>Year</ID>
+              <Name>Year</Name>
+              <SourceColumnID>Year</SourceColumnID>
             </Column>
           </Columns>
-          <AllowDrillThrough>true</AllowDrillThrough>
         </MiningModel>
       </MiningModels>
       <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
-      <ddl100_100:HoldoutMaxCases>1000</ddl100_100:HoldoutMaxCases>
+      <ddl100_100:HoldoutMaxCases>256</ddl100_100:HoldoutMaxCases>
     </MiningStructure>
   </MiningStructures>
   <DataSources>
     <DataSource xsi:type="RelationalDataSource">
-      <ID>Supermarket</ID>
-      <Name>Supermarket</Name>
+      <ID>Cars</ID>
+      <Name>Cars</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <ConnectionString>Provider=SQLNCLI11.1;Data Source=BYRON-AMAYA;Persist Security Info=True;Password=;User ID=;Initial Catalog=Supermarket</ConnectionString>
+      <ConnectionString>Provider=SQLNCLI11.1;Data Source=BYRON-AMAYA;Persist Security Info=True;Password=;User ID=;Initial Catalog=Cars</ConnectionString>
       <ConnectionStringSecurity>PasswordRemoved</ConnectionStringSecurity>
       <ImpersonationInfo>
         <ImpersonationMode>ImpersonateServiceAccount</ImpersonationMode>
@@ -191,8 +280,8 @@
   </DataSources>
   <DataSourceViews>
     <DataSourceView>
-      <ID>Supermarket</ID>
-      <Name>Supermarket</Name>
+      <ID>Cars</ID>
+      <Name>Cars</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <Annotations>
@@ -231,86 +320,37 @@
           </Value>
         </Annotation>
       </Annotations>
-      <DataSourceID>Supermarket</DataSourceID>
+      <DataSourceID>Cars</DataSourceID>
       <Schema>
-        <xs:schema id="Supermarket" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
-          <xs:element name="Supermarket" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="4e739b6f-ffef-4861-b003-7f0205994ba5">
+        <xs:schema id="Cars" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+          <xs:element name="Cars" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="1c695685-176b-4a42-b260-5b653c421f40">
             <xs:complexType>
               <xs:choice minOccurs="0" maxOccurs="unbounded">
-                <xs:element name="dbo_Sales" msprop:design-time-name="905a95f7-3cf7-4eef-b2ee-dab176e668ef" msprop:FriendlyName="Sales" msprop:DbSchemaName="dbo" msprop:DbTableName="Sales" msprop:TableType="Table">
+                <xs:element name="dbo_Sales" msprop:design-time-name="2eaa327d-143d-474c-8966-57bfb6c04762" msprop:FriendlyName="Sales" msprop:DbSchemaName="dbo" msprop:DbTableName="Sales" msprop:TableType="Table">
                   <xs:complexType>
                     <xs:sequence>
-                      <xs:element name="ID" msprop:design-time-name="bf4777b3-033f-491d-b43b-3ff0fcca9e7a" msprop:DbColumnName="ID" msprop:FriendlyName="ID">
+                      <xs:element name="mpg" msprop:design-time-name="5a134a0a-111c-41aa-b35f-a43492a16800" msprop:DbColumnName="mpg" msprop:FriendlyName="mpg" type="xs:float" />
+                      <xs:element name="Cylinders" msprop:design-time-name="dddc8e78-324d-4821-98a2-cd8a4c4c98d2" msprop:DbColumnName="Cylinders" msprop:FriendlyName="Cylinders" type="xs:int" />
+                      <xs:element name="Cubicinches" msprop:design-time-name="21ecc120-259d-47e7-a747-04c7fe29afae" msprop:DbColumnName="Cubicinches" msprop:FriendlyName="Cubicinches" type="xs:int" />
+                      <xs:element name="hp" msprop:design-time-name="4ef4bf4b-e58d-4cd5-a58e-4f9ba2047ed2" msprop:DbColumnName="hp" msprop:FriendlyName="hp" type="xs:int" />
+                      <xs:element name="wightlbs" msprop:design-time-name="1f540432-bb1f-47f3-85aa-9829305da908" msprop:DbColumnName="wightlbs" msprop:FriendlyName="wightlbs" type="xs:int" />
+                      <xs:element name="time_to_60" msprop:design-time-name="3772587a-32b3-4897-b673-0a85a4378456" msprop:DbColumnName="time_to_60" msprop:FriendlyName="time_to_60" type="xs:int" />
+                      <xs:element name="Year_" msprop:design-time-name="ee52825d-c732-4e75-904a-edcf4504898e" msprop:DbColumnName="Year_" msprop:FriendlyName="Year_" type="xs:int" />
+                      <xs:element name="Brand" msprop:design-time-name="e53ea8ce-a224-42c1-8398-dd7c2c2333cc" msprop:DbColumnName="Brand" msprop:FriendlyName="Brand">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
-                            <xs:maxLength value="11" />
+                            <xs:maxLength value="10" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:element>
-                      <xs:element name="Branch" msprop:design-time-name="158b4aec-a29a-445d-b114-cc3cb03470a0" msprop:DbColumnName="Branch" msprop:FriendlyName="Branch">
-                        <xs:simpleType>
-                          <xs:restriction base="xs:string">
-                            <xs:maxLength value="1" />
-                          </xs:restriction>
-                        </xs:simpleType>
-                      </xs:element>
-                      <xs:element name="City" msprop:design-time-name="762c24eb-67c6-4625-87bc-79a6ee5fde76" msprop:DbColumnName="City" msprop:FriendlyName="City" minOccurs="0">
-                        <xs:simpleType>
-                          <xs:restriction base="xs:string">
-                            <xs:maxLength value="20" />
-                          </xs:restriction>
-                        </xs:simpleType>
-                      </xs:element>
-                      <xs:element name="Customer_type" msprop:design-time-name="2cd9c5a6-cc80-4091-969f-2c09b34142e8" msprop:DbColumnName="Customer_type" msprop:FriendlyName="Customer_type">
-                        <xs:simpleType>
-                          <xs:restriction base="xs:string">
-                            <xs:maxLength value="6" />
-                          </xs:restriction>
-                        </xs:simpleType>
-                      </xs:element>
-                      <xs:element name="Gender" msprop:design-time-name="6e9276ea-b2ac-4fc0-ab0d-41524dd493a6" msprop:DbColumnName="Gender" msprop:FriendlyName="Gender">
-                        <xs:simpleType>
-                          <xs:restriction base="xs:string">
-                            <xs:maxLength value="6" />
-                          </xs:restriction>
-                        </xs:simpleType>
-                      </xs:element>
-                      <xs:element name="Product_line" msprop:design-time-name="956afa50-de93-4615-a77d-ca65f530aeef" msprop:DbColumnName="Product_line" msprop:FriendlyName="Product_line">
-                        <xs:simpleType>
-                          <xs:restriction base="xs:string">
-                            <xs:maxLength value="50" />
-                          </xs:restriction>
-                        </xs:simpleType>
-                      </xs:element>
-                      <xs:element name="Unit_price" msprop:design-time-name="c6376ca6-1e4b-43c9-8073-cf5aa26bb371" msprop:DbColumnName="Unit_price" msprop:FriendlyName="Unit_price" type="xs:decimal" />
-                      <xs:element name="Quantity" msprop:design-time-name="ca1fe5e6-3e9b-4b8c-abd3-7cd2dbd9feec" msprop:DbColumnName="Quantity" msprop:FriendlyName="Quantity" type="xs:int" />
-                      <xs:element name="Tax" msprop:design-time-name="504d5aab-71e4-43ef-bc54-3c0733eb0590" msprop:DbColumnName="Tax" msprop:FriendlyName="Tax" type="xs:decimal" />
-                      <xs:element name="Total_price" msprop:design-time-name="97d723da-b700-4048-9d73-0bb581fa616d" msprop:DbColumnName="Total_price" msprop:FriendlyName="Total_price" type="xs:decimal" />
-                      <xs:element name="Date_purchase" msprop:design-time-name="d5e33034-8075-4531-8db9-3c4995f97076" msprop:DbColumnName="Date_purchase" msprop:FriendlyName="Date_purchase" type="xs:dateTime" />
-                      <xs:element name="Time_purchase" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="72d16e56-8259-4d3f-8e86-31b7bcc1e360" msprop:DbColumnName="Time_purchase" msprop:FriendlyName="Time_purchase" type="xs:anyType" />
-                      <xs:element name="Payment" msprop:design-time-name="faad2af5-a4be-42bf-af70-bb62db18d479" msprop:DbColumnName="Payment" msprop:FriendlyName="Payment">
-                        <xs:simpleType>
-                          <xs:restriction base="xs:string">
-                            <xs:maxLength value="50" />
-                          </xs:restriction>
-                        </xs:simpleType>
-                      </xs:element>
-                      <xs:element name="Cogs" msprop:design-time-name="bcdeb101-9fb4-42b8-b329-5065b6237050" msprop:DbColumnName="Cogs" msprop:FriendlyName="Cogs" type="xs:decimal" />
-                      <xs:element name="Gross_margin" msprop:design-time-name="1e790db4-aa0f-4f0e-abfe-5ceb19f029c5" msprop:DbColumnName="Gross_margin" msprop:FriendlyName="Gross_margin" type="xs:double" />
-                      <xs:element name="Gross_income" msprop:design-time-name="e4fc7e56-de2a-4c91-9ec2-c5331ecd67b8" msprop:DbColumnName="Gross_income" msprop:FriendlyName="Gross_income" type="xs:decimal" />
-                      <xs:element name="Rating" msprop:design-time-name="9f8e6e7a-4eb7-47b9-a8fa-b1c464b666e9" msprop:DbColumnName="Rating" msprop:FriendlyName="Rating" type="xs:float" />
                     </xs:sequence>
                   </xs:complexType>
                 </xs:element>
               </xs:choice>
             </xs:complexType>
-            <xs:unique name="Constraint1" msdata:PrimaryKey="true">
-              <xs:selector xpath=".//dbo_Sales" />
-              <xs:field xpath="ID" />
-            </xs:unique>
           </xs:element>
         </xs:schema>
-        <Supermarket xmlns="" />
+        <Cars xmlns="" />
       </Schema>
     </DataSourceView>
   </DataSourceViews>

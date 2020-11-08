@@ -7,14 +7,24 @@
           <ConfigurationSetting>
             <Id>Supermarket</Id>
             <Name>Supermarket</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARLoYRFa6+E2qjtIeWnKDqAAAAAAYAAAAUwB1AHAAZQByAG0AYQByAGsAZQB0AAAAEGYAAAABAAAgAAAAeQUOZ1kZnIZmYS9h2fin+Xf1zZY8Ws3ZHwqvDweqpzMAAAAADoAAAAACAAAgAAAAag79HS//xcp7F+Udpo4Gs196KAHUzwU2RpPPM/yP7J8QAAAAHC8FD3mhJ0eGHXXJv/2Z4EAAAAD+tO7QwY95s3JutGXxCjmMMRtezcI3aP7E5QM2bo19dwwAGpJ7InqWiMJgc/hS4WJ3pc7XIuqt5TiJ3W/FeGQg</Value>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARLoYRFa6+E2qjtIeWnKDqAAAAAAYAAAAUwB1AHAAZQByAG0AYQByAGsAZQB0AAAAEGYAAAABAAAgAAAAbegGmSAUB9RbF/TqLpdsQ+sH1iS0B48yMKmV0hmMIkIAAAAADoAAAAACAAAgAAAABuR1WT45JAugK+Bb9tyPa/+tUbGQLvXUjB9MnIOVWesQAAAAoEkoJxuFm52Y0BqKlXC5HkAAAADzi8mFsVc5VNNZ7SPpne6cbE5bt6QhRLEtLDM/II+QQmGAFljaVH3XwNQ3Q7vnMy43zuWZElnKy15s7hkxpIzb</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Cars</Id>
+            <Name>Cars</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARLoYRFa6+E2qjtIeWnKDqAAAAAAKAAAAQwBhAHIAcwAAABBmAAAAAQAAIAAAAIsmC2U8DuvGF7534YBsb1jC7Xs3qzVEXG/W0M7xCll1AAAAAA6AAAAAAgAAIAAAAJxgRth579YxIuZFaTzNluXXe+XpeLNWqkK5mepICEP0EAAAAOfC399QBNLtOwkj4TOEh6ZAAAAA9HQMn54hhsxZfkogkGXmPkaVzRZC04j1U3n2pnQPcKVZUxJosOZo7kfdqa/wVbt2hlMgJQffhR4EGNaa9XYKxg==</Value>
           </ConfigurationSetting>
         </UserIDs>
         <UserPasswords>
           <ConfigurationSetting>
             <Id>Supermarket</Id>
             <Name>Supermarket</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARLoYRFa6+E2qjtIeWnKDqAAAAAAYAAAAUwB1AHAAZQByAG0AYQByAGsAZQB0AAAAEGYAAAABAAAgAAAA3NdKu7qdUMw2gAAyXdW9beA9u7wmgAq3j1xKQmL0x8MAAAAADoAAAAACAAAgAAAAFV9CxKsq7hLavRu0qCPE2iv74T06zXLDAGh1HOxCZ5wQAAAAB7ROJiZdX47wHHWRfqzABkAAAADunzKnhHrRe+4oCIkRHAR+UNY1dhyjJ7Kl2Hum5VRomo1ScMVDY+9IzIhO1u4DgB2l/RxPKFNpLU7H39JAJ5wv</Value>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARLoYRFa6+E2qjtIeWnKDqAAAAAAYAAAAUwB1AHAAZQByAG0AYQByAGsAZQB0AAAAEGYAAAABAAAgAAAAqygNaVc3oL8NOJ7nUEDZGvYNPeMv0oF4JcRTPBeK4tUAAAAADoAAAAACAAAgAAAAZOdLYaXztms2V10t5lMBUinlv5xBmgMPJknI8UGPoSEQAAAAvC9grIqijAAvXIo+wuk0MkAAAADgoVhXJ1Et5NbyRvpwIYpMF8k6sH3ipTROgv4Ynvzl2E8r1cyQzMGuA+Nj7dMQJbxcJQ2S4kRcNWBcUGEpmK7O</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Cars</Id>
+            <Name>Cars</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARLoYRFa6+E2qjtIeWnKDqAAAAAAKAAAAQwBhAHIAcwAAABBmAAAAAQAAIAAAAM+HeCOdW704Sh6Mwrbyhb/RfZtX93OiBUCa1c22hB+XAAAAAA6AAAAAAgAAIAAAAGQyB0MixF13tq6LxbC0VUb/7uzZQXXSKjByvSJLR2SEEAAAADLAg1LeJjeE4j+GL7SSrLVAAAAAP1Go0EcSwmbGeagma8v5jTi7MyRXKc0PmPKMwpUfcn408tV5XEu7Yb4Z9APs5YT+CL1nSY5MGXLi1WUQLVHqyQ==</Value>
           </ConfigurationSetting>
         </UserPasswords>
         <TargetServer>localhost</TargetServer>
