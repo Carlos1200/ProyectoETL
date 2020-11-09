@@ -6,7 +6,7 @@
     <DataSource Name="DataSource1">
       <ConnectionProperties>
         <DataProvider>OLEDB-MD</DataProvider>
-        <ConnectString>Data Source=localhost;Initial Catalog=CuboG05</ConnectString>
+        <ConnectString>Data Source=DESKTOP-S0789U9\SQLSERVER2;Initial Catalog=CuboG05</ConnectString>
         <IntegratedSecurity>true</IntegratedSecurity>
       </ConnectionProperties>
       <rd:SecurityType>Integrated</rd:SecurityType>
@@ -523,10 +523,10 @@
             <Style />
           </Tablix>
         </ReportItems>
-        <Height>0.86in</Height>
+        <Height>1.25167in</Height>
         <Style />
       </Body>
-      <Width>5.125in</Width>
+      <Width>5.45in</Width>
       <Page>
         <LeftMargin>1in</LeftMargin>
         <RightMargin>1in</RightMargin>
